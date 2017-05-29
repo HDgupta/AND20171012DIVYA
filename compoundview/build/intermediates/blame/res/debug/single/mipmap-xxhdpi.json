@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/divya/AndroidStudioProjects/MyLearningProject/compoundview/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/divya/AndroidStudioProjects/MyLearningProject/compoundview/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
