@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void custom(){
         List<MyownItem> dataset=new ArrayList<>();
-        dataset.add(new MyownItem(R.drawable.ic_cloud_black_24dp,"cloud"));
-        dataset.add(new MyownItem(R.drawable.ic_favorite_black_24dp,"heart"));
-        dataset.add(new MyownItem(R.drawable.ic_flash_on_black_24dp,"flash on"));
-        dataset.add(new MyownItem(R.drawable.ic_flight_black_24dp,"flight"));
+        dataset.add(new MyownItem(System.currentTimeMillis(),R.drawable.ic_cloud_black_24dp,"cloud"));
+        dataset.add(new MyownItem(System.currentTimeMillis(),R.drawable.ic_favorite_black_24dp,"heart"));
+        dataset.add(new MyownItem(System.currentTimeMillis(),R.drawable.ic_flash_on_black_24dp,"flash on"));
+        dataset.add(new MyownItem(System.currentTimeMillis(),R.drawable.ic_flight_black_24dp,"flight"));
 
         MyownAdapter adapter=new MyownAdapter(this,dataset);
         ((ListView)findViewById(R.id.lstView)).setAdapter(adapter);

@@ -40,13 +40,20 @@ public class MyownAdapter extends BaseAdapter {
     }
 
     @Override
-    public long getItemId(int position) {
-        return position*12 ;
+    public long getItemId(int position)
+    {
+        return dataset.get(position).itmid;
+       // return position*12 ;
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View main=inflater.inflate(R.layout.myownview,parent,false);
+        View main=null;
+        if(convertView==null)
+        main=inflater.inflate(R.layout.myownview,parent,false);
+        else
+            main=convertView;
+
         ((ImageView)main.findViewById(R.id.img1)).setImageResource(dataset.get(position).imgid);
         ((TextView)main.findViewById(R.id.txt1)).setText(dataset.get(position).text);
         return main;

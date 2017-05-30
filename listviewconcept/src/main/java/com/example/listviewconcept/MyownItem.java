@@ -8,11 +8,13 @@ import android.content.Context;
 
 public class MyownItem {
 
+    public long itmid;
     public int imgid;
     public String text;
 
-    public MyownItem(int imgid,String text)
+    public MyownItem(long itmid,int imgid,String text)
     {
+        this.itmid=itmid;
         this.imgid=imgid;
         this.text=text;
     }
