@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ExternaliasingResources</string>
+    <string name="text">Divyagupta</string>
+
+    <string-array name="states">
+     <item>Rajasthan</item>
+        <item>Kolkata</item>
+        <item>Maharashtra</item>
+        <item>Gujarat</item>
+        <item>Delhi</item>
+    </string-array>
+
+
+</resources>
