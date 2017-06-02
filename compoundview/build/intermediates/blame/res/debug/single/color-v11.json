@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/divya/AndroidStudioProjects/MyLearningProject/compoundview/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "merged": "/home/divya/AndroidStudioProjects/AndroidBatch/compoundview/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/home/divya/.android/build-cache/4ac8e112b35565a3871ea11777b2122af80bc5b3/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/home/divya/AndroidStudioProjects/MyLearningProject/compoundview/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "merged": "/home/divya/AndroidStudioProjects/AndroidBatch/compoundview/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
         "source": "/home/divya/.android/build-cache/4ac8e112b35565a3871ea11777b2122af80bc5b3/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }
 ]

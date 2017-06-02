@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:2:1-17:12
+ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:2:1-17:12
 	package
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:3:5-39
-		INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml
-		INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml
+		INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml
-		INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml
+		INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml
+		INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml
-		INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml
+		INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml
+		INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml
 application
-ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:5:5-15:19
+ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:5:5-15:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/divya/.android/build-cache/4ac8e112b35565a3871ea11777b2122af80bc5b3/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /home/divya/.android/build-cache/e8691d769380747f9e410309c578cf78b834dc2d/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /home/divya/.android/build-cache/35c892906be8f4f0721bcb916f6b49043f1dd3e3/output/AndroidManifest.xml:29:5-20
@@ -26,33 +26,33 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/divya/.an
 MERGED from [com.android.support:support-compat:25.3.1] /home/divya/.android/build-cache/f6ed9256559e14d07ef6ced8d0834894cc773371/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/divya/.android/build-cache/f7f246fca62eb42581d8c1488f7418d28fc87b0b/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:6:9-41
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:6:9-41
 	android:supportsRtl
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:7:9-35
 	android:roundIcon
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:6:42-87
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:6:42-87
 	android:allowBackup
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:5:18-44
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:5:18-44
 	android:icon
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:5:45-79
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:5:45-79
 	android:theme
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:7:36-67
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:7:36-67
 activity#com.example.compoundview.MainActivity
-ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:8:9-14:20
+ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:8:9-14:20
 	android:name
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:8:19-47
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:8:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:9:13-13:29
+ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:9:13-13:29
 action#android.intent.action.MAIN
-ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:10:17-69
+ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:10:17-69
 	android:name
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:10:25-66
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:10:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:12:17-77
+ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:12:17-77
 	android:name
-		ADDED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml:12:27-74
+		ADDED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml:12:27-74
 uses-sdk
-INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/divya/.android/build-cache/4ac8e112b35565a3871ea11777b2122af80bc5b3/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.3.1] /home/divya/.android/build-cache/e8691d769380747f9e410309c578cf78b834dc2d/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /home/divya/.android/build-cache/35c892906be8f4f0721bcb916f6b49043f1dd3e3/output/AndroidManifest.xml:21:5-23:60
@@ -66,11 +66,11 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/divya
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/divya/.android/build-cache/4ac8e112b35565a3871ea11777b2122af80bc5b3/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml
-		INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml
+		INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml
+		INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml
-		INJECTED from /home/divya/AndroidStudioProjects/MyLearningProject/compoundview/src/main/AndroidManifest.xml
+		INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml
+		INJECTED from /home/divya/AndroidStudioProjects/AndroidBatch/compoundview/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:25.3.1] /home/divya/.android/build-cache/4ac8e112b35565a3871ea11777b2122af80bc5b3/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-v4:25.3.1] /home/divya/.android/build-cache/e8691d769380747f9e410309c578cf78b834dc2d/output/AndroidManifest.xml:25:5-27:34
