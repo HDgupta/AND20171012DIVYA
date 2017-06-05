@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NotificationDialogs</string>
+    <string name="btnAlert">ALERT</string>
+    <string name="btnDatepicker">DATEPICKER</string>
+    <string name="btnTimepicker">TIMEPICKER</string>
+    <string name="btProgress" >PROGRESS</string>
+    <string name="btnCustom">CUSTOM</string>
+    <string name="test">66 down vote favorite 34 \t  I\'d Like to make any image from my ImageView to be circular with a border.  I searched but couldn\'t find any useful information (anything that I tried didn\'t work).  How can I achieve this through xml: Create an ImageView with certain src and make it circular with a border?</string>
+</resources>
