@@ -1,5 +1,7 @@
 package com.example.ui_thread;
 
+import android.app.ProgressDialog;
+import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void btnOkay(View view){
-        handlerdemo();
+        new Mytask().execute(0,100);
     }
 
     private void simplerun(){
@@ -82,6 +84,55 @@ public class MainActivity extends AppCompatActivity {
             }
         }).start();
     }
+
+    private class Mytask extends AsyncTask<Integer/*Params*/,Integer/*Progress*/,Boolean/*Result*/>{
+
+        private ProgressDialog pd;
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            //Ui thread
+            pd = new ProgressDialog(MainActivity.this);
+            pd.setMax(100);
+            pd.setTitle("Progressbar");
+            pd.setMessage("Loading..");
+            pd.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+            pd.show();
+        }
+
+        @Override
+        protected Boolean /*Result*/doInBackground(Integer... params) /*Params for execute method*/{
+                /*Worker thread*/
+            for(int i = params[0]; i < params[1]; i++){
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                publishProgress(i/*Progress*/);
+            }
+            return true;
+        }
+
+        @Override
+        protected void onPostExecute(Boolean aBoolean/*Result*/) {
+            super.onPostExecute(aBoolean);
+            pd.dismiss();
+            /*UI thread*/
+        }
+
+        @Override
+        protected void onProgressUpdate(Integer... values/*Progress*/) {
+            super.onProgressUpdate(values);
+
+            ((TextView)findViewById(R.id.textView)).setText(String.valueOf(values[0]));
+            pd.setProgress(values[i]);
+            //ui thread
+        }
+    }
+
 }
 
   
