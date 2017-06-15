@@ -1,4 +1,4 @@
-package com.example.externalstorage;
+package com.example.sqldatabase;
 
 import android.app.Application;
 
@@ -8,16 +8,16 @@ import android.app.Application;
 
 public class App extends Application {
 
-    private Dbhelper dbhelper;
+    private Dbhelper helper;
 
     @Override
     public void onCreate() {
         super.onCreate();
 
-        dbhelper = new Dbhelper(this,"company.sqlite",null,1);
+        helper = new Dbhelper(this,"company.sqlite",null,1);
     }
 
-    public Dbhelper dbhelper(){
-        return dbhelper;
+    public Dbhelper helper(){
+        return helper;
     }
 }

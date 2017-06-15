@@ -1,4 +1,4 @@
-package com.example.externalstorage;
+package com.example.sqldatabase;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -16,7 +16,7 @@ public class Dbhelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+        db.execSQL("create table CompData(name text,type text,no number,qaunt number)");
     }
 
     @Override
