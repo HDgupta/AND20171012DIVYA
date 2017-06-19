@@ -21,7 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ReadContacts();
+        MyOwnconPro();
+
+
+        //showing our own contactlist
+        //ReadContacts();
     }
 
     private void ReadContacts() {
@@ -44,5 +48,32 @@ public class MainActivity extends AppCompatActivity {
         }
 
         ((ListView)findViewById(R.id.contactLst)).setAdapter(adapter);
+    }
+
+    private void MyOwnconPro(){
+
+        List<String> list = new ArrayList<>();
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
+
+        ContentResolver resolver = getContentResolver();
+
+        Cursor cursor = resolver.query(Uri.parse("content://com.contactprovider.read")
+        ,new String[]{"name","type","no","qaunt"}
+                ,null
+                ,null
+                ,null);
+
+        if(cursor!=null) {
+            while (cursor.moveToNext()) {
+                String name = cursor.getString(cursor.getColumnIndex("name"));
+                String type = cursor.getString(cursor.getColumnIndex("type"));
+                int no = cursor.getInt(cursor.getColumnIndex("no"));
+                int qaunt = cursor.getInt(cursor.getColumnIndex("qaunt"));
+                list.add(name + "\n" + type + "\n" + no + "\n" + qaunt);
+            }
+        }
+
+        ((ListView)findViewById(R.id.contactLst)).setAdapter(adapter);
+
     }
 }
