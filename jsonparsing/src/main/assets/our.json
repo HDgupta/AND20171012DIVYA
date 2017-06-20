@@ -1,0 +1,37 @@
+{
+
+ "NewLang" : "Kotlin",
+
+ "famous" : "2018",
+
+ "OldLang" : [
+	"C",
+	"C++",
+	"Java"
+],
+
+ "courses" : [
+	{
+	  "name":"spring",
+	  "id":1
+	},
+	
+	{
+	  "name":"android",
+	  "id":2
+	},
+	
+	{
+	  "name":"anglarjs",
+	  "id":3
+	}
+],
+
+ "studentname" :{
+		  "name":"divya",
+		  "id" : "1223"	
+                }
+}
+
+
+
